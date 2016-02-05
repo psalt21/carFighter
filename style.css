@@ -1,0 +1,67 @@
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1100px;
+  font-family: verdana, sans-serif;
+  font-size: .8em;
+  line-height: 1.5em;
+  background-color: #F8FCFF;
+  color: #5A5A5A;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4em;
+}
+
+#n-results, #h-results {
+  display: inline-block;
+  margin: 20px 10px;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+#fight {
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  margin-top: 20px;
+  background-color: #F56767;
+  border-radius: 0px;
+  border-style: none;
+  font-weight: bold;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+#hybrid, #vs, #normal, #gas-estimate, #mile-estimate {
+  display: inline-block;
+}
+
+#vs {
+  font-size: 3em;
+  margin: 0px 20px;
+}
+
+.input {
+  width: 123px;
+
+}
+
+.car-title {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+#gas-estimate, #mile-estimate {
+  margin: 10px 20px;
+  width: 200px;
+  text-align: center;
+  font-size: 1.35em;
+}
+
+.hidden {
+  visibility: hidden;
+}

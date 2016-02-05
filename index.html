@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Car Fighter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>Car Fighter</h1>
+
+    <div>
+      <p>Choose battle type:</p>
+      <label for="battle">Gas Price</label>
+      <input class="radio" type="radio" name="battle" value="gas">
+      <label for="battle">Cost</label>
+      <input class="radio" type="radio" name="battle" value="cost">
+    </div>
+    <div id="gas-estimate">
+      <p>Estimated gas price per gallon for 5 years:</p>
+      <input type="text" id="gas-cost" title="Average gas price">
+    </div>
+    <div id="mile-estimate">
+      <p>Estimated miles driven per year:</p>
+      <input type="text" id="num-miles" title="Average miles driven">
+    </div>
+    <br>
+    <div id="hybrid">
+      <p class="car-title">Hybrid Vehicle</p>
+        <div>
+          <label>Stats: </label><input type="text" id="h-initial-cost" class="input" title="Initial cost" placeholder="Initial Cost">
+          <input type="text" id="h-mpg" class="input" title="Miles per gallon" placeholder="Miles Per Gallon">
+          <input type="text" id="h-resale" class="input" title="Resale value" placeholder="Resale Value in 5 Years">
+        </div>
+    </div>
+    <div id="vs">
+      <h3>VS.</h3>
+    </div>
+    <div id="normal">
+      <p class="car-title">Normal Vehicle</p>
+        <div>
+          <label>Stats: </label><input type="text" id="n-initial-cost" class="input" title="Initial cost" placeholder="Initial Cost">
+          <input type="text" id="n-mpg" class="input" title="Miles per gallon" placeholder="Miles Per Gallon">
+          <input type="text" id="n-resale" class="input" title="Resale value" placeholder="Resale Value in 5 Years">
+        </div>
+    </div>
+    <br>
+    <div>
+      <button id="fight">FIGHT!</button>
+    </div>
+
+    <div id="h-results" class="hidden">
+      <h2>Hybrid Car</h2>
+      <p>Gallons of gas:</p>
+      <span></span>
+      <p>5 year cost:</p>
+      <span></span>
+    </div>
+
+    <div id="n-results" class="hidden">
+      <h2>Normal Car</h2>
+      <p>Gallons of gas:</p>
+      <span></span>
+      <p>5 year cost:</p>
+      <span></span>
+    </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="script.js"></script>
+  </body>
+</html>
